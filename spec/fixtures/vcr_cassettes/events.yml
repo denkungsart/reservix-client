@@ -1,0 +1,586 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.reservix.de//1/sale/event?api-key=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 28 Feb 2019 16:36:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"tsServer":"2019-02-28 17:36:54","page":0,"pageSize":200,"limit":12,"totalItems":12,"data":[{"id":538191,"modified":"2018-03-23
+        09:42:20","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Into
+        The Woods - Really Into The Woods","description":"Eine b\u00f6se Hexe hat
+        den B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft.
+        Um den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","artist":null,"showDateTime":1,"startdate":"2021-10-17","starttime":"19:30","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=538191","canonicalUrl":"https:\/\/www.reservix.de\/tickets-into-the-woods-really-into-the-woods-in-mosbach-alte-maelzerei-am-17-10-2021\/e538191","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/538191","references":{"eventgroup":[{"id":133377,"modified":"2018-03-23
+        09:42:47","name":"Into The Woods","description":"Eine b\u00f6se Hexe hat den
+        B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft. Um
+        den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=133377","self":"\/1\/sale\/eventgroup\/133377","references":[]}],"genre":[{"id":75,"modified":"2013-02-07
+        15:20:13","name":"Musical","parent":23,"self":"\/1\/sale\/genre\/75","references":[]}],"location":[{"id":5402,"modified":"2019-02-19
+        12:25:21","name":"Alte M\u00e4lzerei","formatted":"Alte M\u00e4lzerei - Alte
+        Bergsteige 7, 74821 Mosbach","venueId":8255,"self":"\/1\/sale\/location\/5402","references":[]}],"venue":[{"id":8255,"modified":"2018-12-03
+        13:02:10","name":"Alte M\u00e4lzerei  Kultur und Tagungszentrum","street":"Alte
+        Bergsteige 7","zipcode":"74821","city":"Mosbach","country":"DE","latitude":49.3527,"longitude":9.14883,"formatted":"Alte
+        Bergsteige 7, 74821 Mosbach","self":"\/1\/sale\/event\/538191\/venue\/8255","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108154,"modified":"2018-03-23
+        09:42:16","platform":1,"hash":"6f88f9880c6bbbc841148d5feaf614331cd72d8c","url":"https:\/\/www.youtube.com\/watch?v=O5TXDIe8NPk","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108154","references":[]}],"image":[{"id":53819100,"type":1,"hash":"e49d6a53f3a1a2e5cec5d79817578eaa0f5a834e","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_133377.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"8b33bb401149c6a212b450da5a506459aff97f50","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_133377.jpg","self":"\/1\/sale\/image\/53819100","references":[]},{"id":53819101,"type":2,"hash":"0b46818d787a9193668ce01b3c0805ab5b44ef78","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_133377_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53819101","references":[]}]}},{"id":538192,"modified":"2018-03-23
+        09:42:21","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Into
+        The Woods","description":"Eine b\u00f6se Hexe hat den B\u00e4cker und seine
+        Frau mit dem Fluch der Kinderlosigkeit bestraft. Um den Fluch aufzul\u00f6sen,
+        m\u00fcssen die beiden ihr eine Kuh so wei\u00df wie Milch, einen Mantel so
+        rot wie Blut, Haar so gelb wie Korn und einen goldenen Schuh bringen. Das
+        B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen in die Figuren
+        der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von Jack, Rotk\u00e4ppchens
+        Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei kommt
+        es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten Situationen
+        f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind. Am Ende des
+        1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und erf\u00fcllt
+        ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es aber nicht, denn
+        im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen die Figuren mit
+        ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben, was mitunter
+        alles andere als m\u00e4rchenhaft ist...","artist":null,"showDateTime":1,"startdate":"2021-10-31","starttime":"19:30","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=538192","canonicalUrl":"https:\/\/www.reservix.de\/tickets-into-the-woods-in-mosbach-alte-maelzerei-am-31-10-2021\/e538192","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/538192","references":{"eventgroup":[{"id":133377,"modified":"2018-03-23
+        09:42:47","name":"Into The Woods","description":"Eine b\u00f6se Hexe hat den
+        B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft. Um
+        den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=133377","self":"\/1\/sale\/eventgroup\/133377","references":[]}],"genre":[{"id":75,"modified":"2013-02-07
+        15:20:13","name":"Musical","parent":23,"self":"\/1\/sale\/genre\/75","references":[]}],"location":[{"id":5402,"modified":"2019-02-19
+        12:25:21","name":"Alte M\u00e4lzerei","formatted":"Alte M\u00e4lzerei - Alte
+        Bergsteige 7, 74821 Mosbach","venueId":8255,"self":"\/1\/sale\/location\/5402","references":[]}],"venue":[{"id":8255,"modified":"2018-12-03
+        13:02:10","name":"Alte M\u00e4lzerei  Kultur und Tagungszentrum","street":"Alte
+        Bergsteige 7","zipcode":"74821","city":"Mosbach","country":"DE","latitude":49.3527,"longitude":9.14883,"formatted":"Alte
+        Bergsteige 7, 74821 Mosbach","self":"\/1\/sale\/event\/538192\/venue\/8255","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108153,"modified":"2018-03-23
+        09:42:10","platform":1,"hash":"6f88f9880c6bbbc841148d5feaf614331cd72d8c","url":"https:\/\/www.youtube.com\/watch?v=O5TXDIe8NPk","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108153","references":[]}],"image":[{"id":53819200,"type":1,"hash":"e49d6a53f3a1a2e5cec5d79817578eaa0f5a834e","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_133377.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"8b33bb401149c6a212b450da5a506459aff97f50","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_133377.jpg","self":"\/1\/sale\/image\/53819200","references":[]},{"id":53819201,"type":2,"hash":"0b46818d787a9193668ce01b3c0805ab5b44ef78","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_133377_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53819201","references":[]}]}},{"id":745446,"modified":"2018-03-23
+        09:42:22","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Into
+        The Woods","description":"Eine b\u00f6se Hexe hat den B\u00e4cker und seine
+        Frau mit dem Fluch der Kinderlosigkeit bestraft. Um den Fluch aufzul\u00f6sen,
+        m\u00fcssen die beiden ihr eine Kuh so wei\u00df wie Milch, einen Mantel so
+        rot wie Blut, Haar so gelb wie Korn und einen goldenen Schuh bringen. Das
+        B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen in die Figuren
+        der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von Jack, Rotk\u00e4ppchens
+        Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei kommt
+        es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten Situationen
+        f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind. Am Ende des
+        1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und erf\u00fcllt
+        ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es aber nicht, denn
+        im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen die Figuren mit
+        ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben, was mitunter
+        alles andere als m\u00e4rchenhaft ist...","artist":null,"showDateTime":1,"startdate":"2021-11-07","starttime":"19:30","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=745446","canonicalUrl":"https:\/\/www.reservix.de\/tickets-into-the-woods-in-mosbach-alte-maelzerei-am-7-11-2021\/e745446","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/745446","references":{"eventgroup":[{"id":133377,"modified":"2018-03-23
+        09:42:47","name":"Into The Woods","description":"Eine b\u00f6se Hexe hat den
+        B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft. Um
+        den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=133377","self":"\/1\/sale\/eventgroup\/133377","references":[]}],"genre":[{"id":75,"modified":"2013-02-07
+        15:20:13","name":"Musical","parent":23,"self":"\/1\/sale\/genre\/75","references":[]}],"location":[{"id":5402,"modified":"2019-02-19
+        12:25:21","name":"Alte M\u00e4lzerei","formatted":"Alte M\u00e4lzerei - Alte
+        Bergsteige 7, 74821 Mosbach","venueId":8255,"self":"\/1\/sale\/location\/5402","references":[]}],"venue":[{"id":8255,"modified":"2018-12-03
+        13:02:10","name":"Alte M\u00e4lzerei  Kultur und Tagungszentrum","street":"Alte
+        Bergsteige 7","zipcode":"74821","city":"Mosbach","country":"DE","latitude":49.3527,"longitude":9.14883,"formatted":"Alte
+        Bergsteige 7, 74821 Mosbach","self":"\/1\/sale\/event\/745446\/venue\/8255","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108152,"modified":"2018-03-23
+        09:42:03","platform":1,"hash":"6f88f9880c6bbbc841148d5feaf614331cd72d8c","url":"https:\/\/www.youtube.com\/watch?v=O5TXDIe8NPk","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108152","references":[]}],"image":[{"id":74544600,"type":1,"hash":"e49d6a53f3a1a2e5cec5d79817578eaa0f5a834e","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_133377.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"8b33bb401149c6a212b450da5a506459aff97f50","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_133377.jpg","self":"\/1\/sale\/image\/74544600","references":[]},{"id":74544601,"type":2,"hash":"0b46818d787a9193668ce01b3c0805ab5b44ef78","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_133377_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/74544601","references":[]}]}},{"id":901115,"modified":"2018-03-23
+        09:42:23","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Into
+        The Woods","description":"Eine b\u00f6se Hexe hat den B\u00e4cker und seine
+        Frau mit dem Fluch der Kinderlosigkeit bestraft. Um den Fluch aufzul\u00f6sen,
+        m\u00fcssen die beiden ihr eine Kuh so wei\u00df wie Milch, einen Mantel so
+        rot wie Blut, Haar so gelb wie Korn und einen goldenen Schuh bringen. Das
+        B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen in die Figuren
+        der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von Jack, Rotk\u00e4ppchens
+        Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei kommt
+        es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten Situationen
+        f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind. Am Ende des
+        1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und erf\u00fcllt
+        ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es aber nicht, denn
+        im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen die Figuren mit
+        ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben, was mitunter
+        alles andere als m\u00e4rchenhaft ist...","artist":null,"showDateTime":1,"startdate":"2021-11-15","starttime":"19:30","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=901115","canonicalUrl":"https:\/\/www.reservix.de\/tickets-into-the-woods-in-mosbach-alte-maelzerei-am-15-11-2021\/e901115","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/901115","references":{"eventgroup":[{"id":133377,"modified":"2018-03-23
+        09:42:47","name":"Into The Woods","description":"Eine b\u00f6se Hexe hat den
+        B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft. Um
+        den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=133377","self":"\/1\/sale\/eventgroup\/133377","references":[]}],"genre":[{"id":75,"modified":"2013-02-07
+        15:20:13","name":"Musical","parent":23,"self":"\/1\/sale\/genre\/75","references":[]}],"location":[{"id":5402,"modified":"2019-02-19
+        12:25:21","name":"Alte M\u00e4lzerei","formatted":"Alte M\u00e4lzerei - Alte
+        Bergsteige 7, 74821 Mosbach","venueId":8255,"self":"\/1\/sale\/location\/5402","references":[]}],"venue":[{"id":8255,"modified":"2018-12-03
+        13:02:10","name":"Alte M\u00e4lzerei  Kultur und Tagungszentrum","street":"Alte
+        Bergsteige 7","zipcode":"74821","city":"Mosbach","country":"DE","latitude":49.3527,"longitude":9.14883,"formatted":"Alte
+        Bergsteige 7, 74821 Mosbach","self":"\/1\/sale\/event\/901115\/venue\/8255","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108151,"modified":"2018-03-23
+        09:41:55","platform":1,"hash":"6f88f9880c6bbbc841148d5feaf614331cd72d8c","url":"https:\/\/www.youtube.com\/watch?v=O5TXDIe8NPk","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/O5TXDIe8NPk''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108151","references":[]}],"image":[{"id":90111500,"type":1,"hash":"e49d6a53f3a1a2e5cec5d79817578eaa0f5a834e","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_133377.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"8b33bb401149c6a212b450da5a506459aff97f50","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_133377.jpg","self":"\/1\/sale\/image\/90111500","references":[]},{"id":90111501,"type":2,"hash":"0b46818d787a9193668ce01b3c0805ab5b44ef78","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_133377_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/90111501","references":[]}]}},{"id":535929,"modified":"2018-03-23
+        09:40:30","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2022-03-13","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=535929","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-13-3-2022\/e535929","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/535929","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/535929\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108146,"modified":"2018-03-23
+        09:40:26","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108146","references":[]}],"image":[{"id":53592900,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/53592900","references":[]},{"id":53592901,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53592901","references":[]}]}},{"id":538190,"modified":"2018-03-23
+        09:41:26","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Klassikkonzert
+        - Deutschlandpremiere","description":"Es gilt als eines der besten Orchester
+        weltweit:\r\nDas Sinfonieorchester pr\u00e4sentiert Musik aller Stile und
+        Epochen auf musikalischem h\u00f6chstem Niveau. Ein Genuss f\u00fcr alle Klassikfans!\r\n\r\nIn
+        seiner \u00fcber 80-j\u00e4hrigen Geschichte feierte das Orchester mit seinen
+        zahlreichen Konzerten und CD-Produktionen weltweite Erfolge. Dabei arbeitete
+        das Ensemble mit verschiedensten Dirigentenpers\u00f6nlichkeiten zusammen,
+        darunter Hans Rosbaud, Dean Dixon, Dmitrij Kitajenko und bis 2013 mit dem
+        Esten Paavo J\u00e4rvi, der das Sinfonieorchester um viele neue und spannende
+        Facetten bereicherte. Vom Barock bis zur zeitgen\u00f6ssischen Avantgarde
+        reicht ihr Repertoire, wobei die Musiker und Musikerinnen einen besonderen
+        Akzent auf die F\u00f6rderung zeitgen\u00f6ssischer Musik legen.\r\n\r\nAb
+        der Saison 2014\/15 spielt das herausragende Ensemble unter der Leitung von
+        Andr\u00e9s Orozco-Estrada. Erleben Sie einen unvergleichlichen Konzertabend
+        mit dem hr-Sinfonieorchester!\r\n\r\nFoto: hr - Tim Wegner","artist":"Andr\u00e9s
+        Orozco-Estrada","showDateTime":1,"startdate":"2023-12-31","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=538190","canonicalUrl":"https:\/\/www.reservix.de\/tickets-klassikkonzert-deutschlandpremiere-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-31-12-2023\/e538190","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/538190","references":{"eventgroup":[{"id":132676,"modified":"2018-03-23
+        09:41:34","name":"Klassikkonzert","description":"Es gilt als eines der besten
+        Orchester weltweit:\r\nDas Sinfonieorchester pr\u00e4sentiert Musik aller
+        Stile und Epochen auf musikalischem h\u00f6chstem Niveau. Ein Genuss f\u00fcr
+        alle Klassikfans!\r\n\r\nIn seiner \u00fcber 80-j\u00e4hrigen Geschichte feierte
+        das Orchester mit seinen zahlreichen Konzerten und CD-Produktionen weltweite
+        Erfolge. Dabei arbeitete das Ensemble mit verschiedensten Dirigentenpers\u00f6nlichkeiten
+        zusammen, darunter Hans Rosbaud, Dean Dixon, Dmitrij Kitajenko und bis 2013
+        mit dem Esten Paavo J\u00e4rvi, der das Sinfonieorchester um viele neue und
+        spannende Facetten bereicherte. Vom Barock bis zur zeitgen\u00f6ssischen Avantgarde
+        reicht ihr Repertoire, wobei die Musiker und Musikerinnen einen besonderen
+        Akzent auf die F\u00f6rderung zeitgen\u00f6ssischer Musik legen.\r\n\r\nAb
+        der Saison 2014\/15 spielt das herausragende Ensemble unter der Leitung von
+        Andr\u00e9s Orozco-Estrada. Erleben Sie einen unvergleichlichen Konzertabend
+        mit dem hr-Sinfonieorchester!\r\n\r\nFoto: hr - Tim Wegner","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132676","self":"\/1\/sale\/eventgroup\/132676","references":[]}],"genre":[{"id":76,"modified":"2013-02-07
+        15:20:13","name":"Klassisches Konzert","parent":14,"self":"\/1\/sale\/genre\/76","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/538190\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108149,"modified":"2018-03-23
+        09:41:22","platform":1,"hash":"d74871e2b899a7476314fc1126e09388141c9cf3","url":"https:\/\/www.youtube.com\/watch?v=1RKcmM74Pa4","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108149","references":[]}],"image":[{"id":53819000,"type":1,"hash":"9739188fbc84cc02100eae235ec0d889a58a61d8","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132676.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"29ddd9330cefadc3912f435a750e65ca6a00581d","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132676.jpg","self":"\/1\/sale\/image\/53819000","references":[]},{"id":53819001,"type":2,"hash":"eae3d9c7133c7a58495e5f542f43b71963ac1a18","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132676_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53819001","references":[]}]}},{"id":1045734,"modified":"2018-03-23
+        09:40:29","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2025-02-15","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=1045734","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-15-2-2025\/e1045734","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/1045734","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/1045734\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108144,"modified":"2018-03-23
+        09:40:03","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108144","references":[]}],"image":[{"id":104573400,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/104573400","references":[]},{"id":104573401,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/104573401","references":[]}]}},{"id":1084246,"modified":"2018-03-23
+        09:39:58","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2025-02-16","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=1084246","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-16-2-2025\/e1084246","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/1084246","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/1084246\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108143,"modified":"2018-03-23
+        09:39:54","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108143","references":[]}],"image":[{"id":108424600,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/108424600","references":[]},{"id":108424601,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/108424601","references":[]}]}},{"id":1084247,"modified":"2018-03-23
+        09:39:40","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2025-03-13","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=1084247","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-13-3-2025\/e1084247","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/1084247","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/1084247\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108141,"modified":"2018-03-23
+        09:39:33","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108141","references":[]}],"image":[{"id":108424700,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/108424700","references":[]},{"id":108424701,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/108424701","references":[]}]}},{"id":538167,"modified":"2018-03-23
+        09:40:30","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2025-03-14","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=538167","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-14-3-2025\/e538167","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/538167","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/538167\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108145,"modified":"2018-03-23
+        09:40:10","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108145","references":[]}],"image":[{"id":53816700,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/53816700","references":[]},{"id":53816701,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53816701","references":[]}]}},{"id":1084248,"modified":"2018-03-23
+        09:39:47","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":"Einlass
+        ab 19 Uhr","name":"The Fantastic Four in Test - Alles nur ein Test","description":"Die
+        Fanta Vier sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer
+        Top-Ten-Hits \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt.
+        Zusammen mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","artist":"Fantastic
+        Four","showDateTime":1,"startdate":"2025-04-10","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=1084248","canonicalUrl":"https:\/\/www.reservix.de\/tickets-the-fantastic-four-in-test-alles-nur-ein-test-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-10-4-2025\/e1084248","minPrice":35,"maxPrice":35,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":3,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/1084248","references":{"eventgroup":[{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":[]}],"genre":[{"id":106,"modified":"2013-02-07
+        15:20:13","name":"Deutsch Hip Hop","parent":107,"self":"\/1\/sale\/genre\/106","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/1084248\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108142,"modified":"2018-03-23
+        09:39:47","platform":1,"hash":"60419e51e6c2869e7e09d1cec35924a7485609f8","url":"https:\/\/www.youtube.com\/watch?v=ObNSrOelrPI","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/ObNSrOelrPI''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108142","references":[]}],"image":[{"id":108424800,"type":1,"hash":"5467d4ca39ab27f1d7a68fa22f695edfcb739622","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132678.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"4703704376a7553db48cc2baf47f22b4ba78b25e","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132678.jpg","self":"\/1\/sale\/image\/108424800","references":[]},{"id":108424801,"type":2,"hash":"86cffc4693d3839c60e4531436e760d48e4bbd27","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132678_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/108424801","references":[]}]}},{"id":535907,"modified":"2018-03-23
+        09:41:27","isTestEvent":true,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Der
+        erm\u00e4\u00dfigte Preis, soweit angeboten, gilt f\u00fcr Sch\u00fcler, Studenten,
+        Bufdis und Rentner.\r\nBeim Einlass wird die Berechtigung kontrolliert. Halten
+        sie daher Ihren entsprechenden Nachweis bereit.","discountAvailable":true,"additionalInformation":null,"name":"Klassikkonzert
+        - Deutschlandpremiere","description":"Es gilt als eines der besten Orchester
+        weltweit:\r\nDas Sinfonieorchester pr\u00e4sentiert Musik aller Stile und
+        Epochen auf musikalischem h\u00f6chstem Niveau. Ein Genuss f\u00fcr alle Klassikfans!\r\n\r\nIn
+        seiner \u00fcber 80-j\u00e4hrigen Geschichte feierte das Orchester mit seinen
+        zahlreichen Konzerten und CD-Produktionen weltweite Erfolge. Dabei arbeitete
+        das Ensemble mit verschiedensten Dirigentenpers\u00f6nlichkeiten zusammen,
+        darunter Hans Rosbaud, Dean Dixon, Dmitrij Kitajenko und bis 2013 mit dem
+        Esten Paavo J\u00e4rvi, der das Sinfonieorchester um viele neue und spannende
+        Facetten bereicherte. Vom Barock bis zur zeitgen\u00f6ssischen Avantgarde
+        reicht ihr Repertoire, wobei die Musiker und Musikerinnen einen besonderen
+        Akzent auf die F\u00f6rderung zeitgen\u00f6ssischer Musik legen.\r\n\r\nAb
+        der Saison 2014\/15 spielt das herausragende Ensemble unter der Leitung von
+        Andr\u00e9s Orozco-Estrada. Erleben Sie einen unvergleichlichen Konzertabend
+        mit dem hr-Sinfonieorchester!\r\n\r\nFoto: hr - Tim Wegner","artist":"Andr\u00e9s
+        Orozco-Estrada","showDateTime":1,"startdate":"2025-12-29","starttime":"20:00","enddate":null,"endtime":null,"duration":0,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventID=535907","canonicalUrl":"https:\/\/www.reservix.de\/tickets-klassikkonzert-deutschlandpremiere-in-freiburg-im-breisgau-konzerthaus-rolf-boehme-saal-am-29-12-2025\/e535907","minPrice":21,"maxPrice":51,"minPriceMediaPartner":null,"delivery":1,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":false,"vat":0,"zipCodeRequirement":null,"organizerEventReference":null,"publicOrganizerName":"Testzugang
+        API - Key f\u00fcr Veranstalter","publicOrganizerAddress":"Deutschland","self":"\/1\/sale\/event\/535907","references":{"eventgroup":[{"id":132676,"modified":"2018-03-23
+        09:41:34","name":"Klassikkonzert","description":"Es gilt als eines der besten
+        Orchester weltweit:\r\nDas Sinfonieorchester pr\u00e4sentiert Musik aller
+        Stile und Epochen auf musikalischem h\u00f6chstem Niveau. Ein Genuss f\u00fcr
+        alle Klassikfans!\r\n\r\nIn seiner \u00fcber 80-j\u00e4hrigen Geschichte feierte
+        das Orchester mit seinen zahlreichen Konzerten und CD-Produktionen weltweite
+        Erfolge. Dabei arbeitete das Ensemble mit verschiedensten Dirigentenpers\u00f6nlichkeiten
+        zusammen, darunter Hans Rosbaud, Dean Dixon, Dmitrij Kitajenko und bis 2013
+        mit dem Esten Paavo J\u00e4rvi, der das Sinfonieorchester um viele neue und
+        spannende Facetten bereicherte. Vom Barock bis zur zeitgen\u00f6ssischen Avantgarde
+        reicht ihr Repertoire, wobei die Musiker und Musikerinnen einen besonderen
+        Akzent auf die F\u00f6rderung zeitgen\u00f6ssischer Musik legen.\r\n\r\nAb
+        der Saison 2014\/15 spielt das herausragende Ensemble unter der Leitung von
+        Andr\u00e9s Orozco-Estrada. Erleben Sie einen unvergleichlichen Konzertabend
+        mit dem hr-Sinfonieorchester!\r\n\r\nFoto: hr - Tim Wegner","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132676","self":"\/1\/sale\/eventgroup\/132676","references":[]}],"genre":[{"id":76,"modified":"2013-02-07
+        15:20:13","name":"Klassisches Konzert","parent":14,"self":"\/1\/sale\/genre\/76","references":[]}],"location":[{"id":2801,"modified":"2019-02-27
+        11:17:58","name":"Konzerthaus, Rolf-B\u00f6hme-Saal","formatted":"Konzerthaus,
+        Rolf-B\u00f6hme-Saal - Konrad-Adenauer-Platz 1, 79098 Freiburg","venueId":432,"self":"\/1\/sale\/location\/2801","references":[]}],"venue":[{"id":432,"modified":"2018-12-03
+        21:10:11","name":"Konzerthaus Freiburg","street":"Konrad-Adenauer-Platz 1","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.996,"longitude":7.8422,"formatted":"Konrad-Adenauer-Platz
+        1, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/535907\/venue\/432","references":[]}],"organizer":[{"id":12884,"modified":"2017-09-22
+        15:57:35","name":"Testzugang API - Key f\u00fcr Veranstalter","self":"\/1\/sale\/organizer\/12884","references":[]}],"video":[{"id":108148,"modified":"2018-03-23
+        09:41:14","platform":1,"hash":"d74871e2b899a7476314fc1126e09388141c9cf3","url":"https:\/\/www.youtube.com\/watch?v=1RKcmM74Pa4","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4","embeded":"<iframe
+        width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4''
+        allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108148","references":[]}],"image":[{"id":53590700,"type":1,"hash":"9739188fbc84cc02100eae235ec0d889a58a61d8","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132676.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"29ddd9330cefadc3912f435a750e65ca6a00581d","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132676.jpg","self":"\/1\/sale\/image\/53590700","references":[]},{"id":53590701,"type":2,"hash":"eae3d9c7133c7a58495e5f542f43b71963ac1a18","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132676_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53590701","references":[]}]}}]}'
+    http_version: 
+  recorded_at: Thu, 28 Feb 2019 16:36:54 GMT
+recorded_with: VCR 3.0.3

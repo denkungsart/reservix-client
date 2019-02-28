@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.reservix.de//1/sale/eventgroup?api-key=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 28 Feb 2019 16:36:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"tsServer":"2019-02-28 17:36:54","page":0,"pageSize":200,"limit":3,"totalItems":12,"data":[{"id":132676,"modified":"2018-03-23
+        09:41:34","name":"Klassikkonzert","description":"Es gilt als eines der besten
+        Orchester weltweit:\r\nDas Sinfonieorchester pr\u00e4sentiert Musik aller
+        Stile und Epochen auf musikalischem h\u00f6chstem Niveau. Ein Genuss f\u00fcr
+        alle Klassikfans!\r\n\r\nIn seiner \u00fcber 80-j\u00e4hrigen Geschichte feierte
+        das Orchester mit seinen zahlreichen Konzerten und CD-Produktionen weltweite
+        Erfolge. Dabei arbeitete das Ensemble mit verschiedensten Dirigentenpers\u00f6nlichkeiten
+        zusammen, darunter Hans Rosbaud, Dean Dixon, Dmitrij Kitajenko und bis 2013
+        mit dem Esten Paavo J\u00e4rvi, der das Sinfonieorchester um viele neue und
+        spannende Facetten bereicherte. Vom Barock bis zur zeitgen\u00f6ssischen Avantgarde
+        reicht ihr Repertoire, wobei die Musiker und Musikerinnen einen besonderen
+        Akzent auf die F\u00f6rderung zeitgen\u00f6ssischer Musik legen.\r\n\r\nAb
+        der Saison 2014\/15 spielt das herausragende Ensemble unter der Leitung von
+        Andr\u00e9s Orozco-Estrada. Erleben Sie einen unvergleichlichen Konzertabend
+        mit dem hr-Sinfonieorchester!\r\n\r\nFoto: hr - Tim Wegner","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132676","self":"\/1\/sale\/eventgroup\/132676","references":{"event":"\/1\/sale\/eventgroup\/132676\/event"}},{"id":132678,"modified":"2018-03-23
+        09:40:51","name":"The Fantastic Four in Test","description":"Die Fanta Vier
+        sind seit den fr\u00fchen 90ern f\u00fcr die Lyrics und Beats ihrer Top-Ten-Hits
+        \u201eMFG\u201c, \u201eDie da\u201c und \u201eTroy\u201c bekannt. Zusammen
+        mit Fettes Brot haben sie den deutschen Hip-Hop entscheidend gepr\u00e4gt
+        und popularisiert. Das legend\u00e4re Unplugged-Konzert der Fantastischen
+        Vier ist f\u00fcr viele Genre-Kollegen eine Ma\u00dfst\u00e4be setzende Inspirationsquelle.\r\n\r\nSmudo,
+        And.Ypsilon, Michi Beck und Thomas D sind im wahrsten Sinne des Wortes fantastisch.
+        Gold- und Platinauszeichnungen und diverse Awards waren die logische Konsequenz
+        f\u00fcr die Kreativit\u00e4t der Vier. Durch den Aufbau ihres Labels Four
+        Music und im Folgenden auch der Gr\u00fcndung von Four Artists gaben sie talentierten
+        K\u00fcnstlern wie Clueso, Max Herre, Joy Denalane und Gentleman die M\u00f6glichkeit,
+        ihre Musik zu ver\u00f6ffentlichen und live zu spielen.\r\n\r\nDar\u00fcber
+        hinaus fand jeder der vier Stuttgarter die Zeit, Soloprojekte zu verfolgen.
+        Thomas D\u00b4s und And.Y \u201as Soloalben, Michi Beck mit Turntablerocker
+        und Smudo als DJ betrachten ihre Nebenprojekte zwar als Urlaub von den Fantas,
+        sind aber im Einzelnen ebenso wegweisend wie als Gruppe.","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=132678","self":"\/1\/sale\/eventgroup\/132678","references":{"event":"\/1\/sale\/eventgroup\/132678\/event"}},{"id":133377,"modified":"2018-03-23
+        09:42:47","name":"Into The Woods","description":"Eine b\u00f6se Hexe hat den
+        B\u00e4cker und seine Frau mit dem Fluch der Kinderlosigkeit bestraft. Um
+        den Fluch aufzul\u00f6sen, m\u00fcssen die beiden ihr eine Kuh so wei\u00df
+        wie Milch, einen Mantel so rot wie Blut, Haar so gelb wie Korn und einen goldenen
+        Schuh bringen. Das B\u00e4ckerpaar dringt nun in traum\u00e4hnlichen Situationen
+        in die Figuren der M\u00e4rchen ein, denn sie sollen der Hexe ja die Kuh von
+        Jack, Rotk\u00e4ppchens Mantel, Rapunzels Haar und Aschenputtels Schuh beschaffen.\r\n\r\nDabei
+        kommt es zu zahlreichen Verwicklungen, heiteren Umdeutungen und verzwickten
+        Situationen f\u00fcr die Figuren, deren Beziehungen fatal verschlungen sind.
+        Am Ende des 1. Aktes nimmt die Hexe den Fluch von dem B\u00e4ckerpaar und
+        erf\u00fcllt ihren Kinderwunsch. Jetzt k\u00f6nnte alles gut sein, ist es
+        aber nicht, denn im 2. Akt, er spielt exakt ein Jahr sp\u00e4ter, m\u00fcssen
+        die Figuren mit ihren in Erf\u00fcllung gegangenen W\u00fcnschen weiterleben,
+        was mitunter alles andere als m\u00e4rchenhaft ist...","type":1,"affiliateSaleUrl":"https:\/\/shop.reservix.de\/off\/login_check.php?id=c6b93363d4bc7c27716bd16311f6794829eec6bcddc3b0f73e19ee5d6e1f1d4746a71be27912e511305a6e1e57183504&vID=12884&eventGrpID=133377","self":"\/1\/sale\/eventgroup\/133377","references":{"event":"\/1\/sale\/eventgroup\/133377\/event"}}]}'
+    http_version:
+  recorded_at: Thu, 28 Feb 2019 16:36:54 GMT
+recorded_with: VCR 3.0.3
