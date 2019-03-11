@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.reservix.de//1/sale/genre?api-key=xxx
+    uri: https://api.reservix.de/1/sale/genre?api-key=xxx
     body:
       encoding: US-ASCII
       string: ''
@@ -233,6 +233,6 @@ http_interactions:
         15:20:13","name":"Kindertheater","parent":87,"self":"\/1\/sale\/genre\/60","references":{"event":"\/1\/sale\/genre\/60\/event"}},{"id":186,"modified":"2013-02-07
         15:20:13","name":"M\u00e4rchen","parent":87,"self":"\/1\/sale\/genre\/186","references":{"event":"\/1\/sale\/genre\/186\/event"}},{"id":119,"modified":"2013-02-07
         15:20:13","name":"Elektropop","parent":118,"self":"\/1\/sale\/genre\/119","references":{"event":"\/1\/sale\/genre\/119\/event"}}]}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 28 Feb 2019 16:45:35 GMT
 recorded_with: VCR 3.0.3

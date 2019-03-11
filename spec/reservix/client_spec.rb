@@ -17,6 +17,34 @@ RSpec.describe Reservix::Client do
           .to eq('Alte Mälzerei  Kultur und Tagungszentrum')
       end
     end
+
+    context 'with query params' do
+      let(:params) do
+        {
+          startdate: Date.parse('2019/03/11'),
+          genreid: 19,
+          sidx: 'date',
+          sord: 'asc'
+        }
+      end
+
+      it 'fetches events for a week' do
+        VCR.use_cassette('events_with_query_params') do
+          response = client.events(params)
+          expect(response.count).to eq(138)
+
+          first_event = response.first
+          last_event = response.last
+
+          expect(first_event.name)
+            .to eq('Moskauer Kathedralchor')
+          expect(last_event.name)
+            .to eq('Ural Kosaken Chor - „Erinnerungen an Ivan Rebroff “')
+          expect(first_event.startdate).to eq('2019-03-14')
+          expect(last_event.startdate).to eq('2020-06-13')
+        end
+      end
+    end
   end
 
   describe '#event_groups' do

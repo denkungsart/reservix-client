@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.reservix.de//1/sale/event?api-key=xxx
+    uri: https://api.reservix.de/1/sale/event?api-key=xxx
     body:
       encoding: US-ASCII
       string: ''
@@ -581,6 +581,6 @@ http_interactions:
         09:41:14","platform":1,"hash":"d74871e2b899a7476314fc1126e09388141c9cf3","url":"https:\/\/www.youtube.com\/watch?v=1RKcmM74Pa4","embededUrl":"https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4","embeded":"<iframe
         width=''385'' height=''220'' frameborder=''0'' src=''https:\/\/www.youtube-nocookie.com\/embed\/1RKcmM74Pa4''
         allowfullscreen><\/iframe>","self":"\/1\/sale\/video\/108148","references":[]}],"image":[{"id":53590700,"type":1,"hash":"9739188fbc84cc02100eae235ec0d889a58a61d8","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_132676.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"29ddd9330cefadc3912f435a750e65ca6a00581d","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_132676.jpg","self":"\/1\/sale\/image\/53590700","references":[]},{"id":53590701,"type":2,"hash":"eae3d9c7133c7a58495e5f542f43b71963ac1a18","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_132676_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/53590701","references":[]}]}}]}'
-    http_version: 
+    http_version:
   recorded_at: Thu, 28 Feb 2019 16:36:54 GMT
 recorded_with: VCR 3.0.3

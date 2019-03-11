@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.reservix.de//1/sale/eventgroup?api-key=xxx
+    uri: https://api.reservix.de/1/sale/eventgroup?api-key=xxx
     body:
       encoding: US-ASCII
       string: ''
