@@ -2,7 +2,7 @@ require 'reservix/version'
 require 'open-uri'
 require 'json'
 
-require 'reservix/conserns/referenceable'
+require 'reservix/concerns/referenceable'
 
 require 'reservix/event'
 require 'reservix/event_group'
