@@ -36,6 +36,8 @@ RSpec.describe Reservix::Client do
           first_event = response.first
           last_event = response.last
 
+          expect(first_event.starts_at.zone).to eq('UTC')
+
           expect(first_event.name)
             .to eq('Moskauer Kathedralchor')
           expect(last_event.name)

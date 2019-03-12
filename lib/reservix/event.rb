@@ -1,13 +1,16 @@
+require 'time'
+require 'tzinfo'
+
 module Reservix
   class Event < OpenStruct
     include Referenceable
 
     def starts_at
-      DateTime.parse("#{startdate} #{starttime}")
+      time_zone.local_to_utc(Time.parse("#{startdate} #{starttime}"))
     end
 
     def ends_at
-      DateTime.parse("#{enddate} #{endtime}") if enddate
+      time_zone.local_to_utc(Time.parse("#{enddate} #{endtime}")) if enddate
     end
 
     def event_group
@@ -20,6 +23,12 @@ module Reservix
 
     def venue
       Venue.new(fetch_reference('venue'))
+    end
+
+    private
+
+    def time_zone
+      @time_zone ||= TZInfo::Timezone.get('Europe/Berlin')
     end
   end
 end

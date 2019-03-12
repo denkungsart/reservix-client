@@ -33,6 +33,9 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     safe_yaml (1.0.5)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
     vcr (3.0.3)
     webmock (3.5.1)
       addressable (>= 2.3.6)
@@ -48,6 +51,7 @@ DEPENDENCIES
   rake (~> 10.0)
   reservix-client!
   rspec (~> 3.0)
+  tzinfo (~> 1.1)
   vcr (~> 3.0)
   webmock
 
