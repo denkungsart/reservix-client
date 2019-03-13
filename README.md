@@ -16,13 +16,45 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+## Requirements
 
-    $ gem install reservix-client
+- Ruby 2.3+
 
 ## Usage
 
-TODO: Write usage instructions here
+To get the events from the [Reservix](https://www.reservix.de/) you'll have to get an API key.
+The key could be obtained from the Reservix itself.
+
+```ruby
+require 'reservix-client'
+
+Reservix.api_key = "xxx"
+
+# Fetch all events (limit 200)
+
+client = Reservix::Client.new
+client.events
+
+# Fetch events for specific genre
+
+params = { genreid: 19 } # Chormusik
+client.events(params)
+
+```
+
+#### Event
+
+Event is a class which represents Event object from the Reservix API. It is built on top of OpenStruct so every field from the API could be accessed as a method call, for example:
+
+```ruby
+event.name
+#=> "Moskauer Kathedralchor"
+
+event.artist
+#=> "Nicolay Azarov (Leitung)"
+```
+
+`Event#starts_at` and `Events#ends_at` two methods which returns start/end dates of the event as [Time object](https://ruby-doc.org/core-2.3.0/Time.html) and in UTC time zone.
 
 ## Development
 
@@ -32,7 +64,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/reservix-client.
+Bug reports and pull requests are welcome on GitHub at https://github.com/denkungsart/reservix-client.
 
 ## License
 
