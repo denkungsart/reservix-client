@@ -18,8 +18,12 @@ module Reservix
   end
 
   # Client is a main class to iteract with Reservix API
-  # returns Ruby objects converted from the JSON respose
+  # returns Ruby objects converted from the JSON response
   class Client
+    def event(event_id)
+      build_objects(send_request("event/#{event_id}"), Event)
+    end
+
     def events(options = {})
       build_objects(send_request('event', options), Event)
     end

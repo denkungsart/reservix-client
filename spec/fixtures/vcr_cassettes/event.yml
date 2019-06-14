@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.reservix.de/1/sale/event/1408149?api-key=xxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 14 Jun 2019 12:24:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"tsServer":"2019-06-14 14:24:15","page":0,"pageSize":200,"limit":1,"totalItems":1,"data":[{"id":1408149,"modified":"2019-06-10
+        18:43:07","isTestEvent":false,"bookable":true,"bookableinfo":null,"salesstatus":2,"salesstart":null,"discountinfo":"Erm\u00e4\u00dfigt
+        sind Sch\u00fcler, Studenten und Arbeitslose. Schwerbehinderte mit dem Merkzeichen
+        B im Ausweis erhalten eine Freikarte f\u00fcr ihre Begleitperson. Bitte entsprechenden
+        Ausweis zur Abendkasse mitbringen.","discountAvailable":true,"additionalInformation":null,"name":"Lieder
+        der Fr\u00fche","description":"Robert Lucas Pearsall\r\nLay a garland\r\n\r\nRalph
+        Vaughan Williams\r\nThree Shakespeare Songs\r\n\r\nPaul Hindemith\r\nSix chansons\r\n\r\nHenk
+        Badings\r\nTrois Chansons Bretonnes\r\n\r\nJohannes Brahms\r\nVier Lieder
+        op. 62\r\n\r\nGustav Jenner\r\nVokalquartette f\u00fcr Chor und Klavier\r\n\r\nHilko
+        Dumno, Klavier\r\nCamerata Vocale Freiburg\r\n\r\nWinfried Toll, Leitung","artist":"Camerata
+        Vocale Freiburg, Hilko Dumno (Klavier), Winfried Toll","showDateTime":1,"startdate":"2019-07-19","starttime":"20:00","enddate":null,"endtime":null,"duration":90,"originallyDateTime":null,"distance":null,"publicSaleUrl":"https:\/\/www.reservix.de","affiliateSaleUrl":"https:\/\/blankmusic.reservix.de\/p\/reservix\/event\/1408149","canonicalUrl":"https:\/\/www.reservix.de\/tickets-lieder-der-fruehe-in-freiburg-im-breisgau-historisches-kaufhaus-kaisersaal-am-19-7-2019\/e1408149","minPrice":12,"maxPrice":20,"minPriceMediaPartner":null,"delivery":26,"planzone":null,"eventSeasonMode":0,"reservationMode":0,"requiredTicketOptionsAvailable":false,"comboTicketOptionsAvailable":true,"vat":2,"zipCodeRequirement":null,"organizerEventReference":null,"videoId":null,"publicOrganizerName":"Camerata
+        Vocale Freiburg","publicOrganizerAddress":"Sonnenwiese 2A, 79194 Gundelfingen-Wildtal,
+        Deutschland","self":"\/1\/sale\/event\/1408149","references":{"eventgroup":[{"id":280302,"modified":"2019-06-14
+        10:48:10","name":"Lieder der Fr\u00fche","description":"Robert Lucas Pearsall\r\nLay
+        a garland\r\n\r\nRalph Vaughan Williams\r\nThree Shakespeare Songs\r\n\r\nPaul
+        Hindemith\r\nSix chansons\r\n\r\nHenk Badings\r\nTrois Chansons Bretonnes\r\n\r\nJohannes
+        Brahms\r\nVier Lieder op. 62\r\n\r\nGustav Jenner\r\nVokalquartette f\u00fcr
+        Chor und Klavier\r\n\r\nHilko Dumno, Klavier\r\nCamerata Vocale Freiburg\r\n\r\nWinfried
+        Toll, Leitung","type":1,"affiliateSaleUrl":"https:\/\/blankmusic.reservix.de\/p\/reservix\/group\/280302","self":"\/1\/sale\/eventgroup\/280302","references":[]}],"genre":[{"id":19,"modified":"2013-02-07
+        15:20:13","name":"Chormusik","parent":66,"self":"\/1\/sale\/genre\/19","references":[]}],"location":[{"id":4886,"modified":"2019-04-08
+        12:28:02","name":"Historisches Kaufhaus, Kaisersaal","formatted":"Historisches
+        Kaufhaus, Kaisersaal - M\u00fcnsterplatz 24, 79098 Freiburg","venueId":452,"self":"\/1\/sale\/location\/4886","references":[]}],"venue":[{"id":452,"modified":"2018-12-01
+        13:26:41","name":"Historisches Kaufhaus","street":"M\u00fcnsterplatz 24","zipcode":"79098","city":"Freiburg
+        im Breisgau","country":"DE","latitude":47.995,"longitude":7.85267,"formatted":"M\u00fcnsterplatz
+        24, 79098 Freiburg im Breisgau","self":"\/1\/sale\/event\/1408149\/venue\/452","references":[]}],"organizer":[{"id":124,"modified":"2019-06-11
+        12:09:19","name":"Camerata Vocale Freiburg","self":"\/1\/sale\/organizer\/124","references":[]}],"video":null,"image":[{"id":140814900,"type":1,"hash":"e44fa2621e666c5201448942997bf6d41ba7caec","url":"https:\/\/static.reservix.de\/img\/eventgroup\/detailGroup_280302.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":"ace8fc33696e5a769b167d16ab6077143591963b","thumbnail_url":"https:\/\/static.reservix.de\/img\/eventgroup\/thumbnail_280302.jpg","self":"\/1\/sale\/image\/140814900","references":[]},{"id":140814901,"type":2,"hash":"cc98765120b337468d205de57a84e583affd5989","url":"https:\/\/static.reservix.de\/img\/eventgroup\/slideGroup_280302_0.jpg","isPlaceholder":false,"copyright":null,"thumbnail_hash":null,"thumbnail_url":null,"self":"\/1\/sale\/image\/140814901","references":[]}]}}]}'
+    http_version:
+  recorded_at: Fri, 14 Jun 2019 12:24:15 GMT
+recorded_with: VCR 3.0.3

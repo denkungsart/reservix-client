@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    reservix-client (0.1.0)
+    reservix-client (0.1.1)
 
 GEM
   remote: https://rubygems.org/

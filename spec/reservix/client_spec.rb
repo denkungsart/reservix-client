@@ -3,6 +3,18 @@ RSpec.describe Reservix::Client do
 
   before { Reservix.api_key = 'xxx' }
 
+  describe '#event' do
+    it 'fetches event data' do
+      VCR.use_cassette('event') do
+        response = client.event(1_408_149)
+        event = response.first
+
+        expect(response.count).to eq(1)
+        expect(event.name).to eq('Lieder der Frühe')
+      end
+    end
+  end
+
   describe '#events' do
     it 'fetches events' do
       VCR.use_cassette('events') do
